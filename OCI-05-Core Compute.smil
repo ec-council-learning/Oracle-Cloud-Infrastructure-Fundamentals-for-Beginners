@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "https://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="https://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="1920" height="1080"  background-color="black" />
+<region id="Videos" left="0" top="0" width="1920" height="1080" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="OCI-05-Core Compute-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="OCI-05-Core Compute-1.mp4" qt:chapter="Compute Types"  region="Videos" />
+        <video src="OCI-05-Core Compute-2.mp4" qt:chapter="Compute Shapes"  region="Videos" />
+        <video src="OCI-05-Core Compute-3.mp4" qt:chapter="Compute Images"  region="Videos" />
+        <video src="OCI-05-Core Compute-4.mp4" qt:chapter="Creating a Compute Instance"  region="Videos" />
+        <video src="OCI-05-Core Compute-5.mp4" qt:chapter="Connecting to Linux Instance"  region="Videos" />
+        <video src="OCI-05-Core Compute-6.mp4" qt:chapter="Connect to Windows"  region="Videos" />
+        <video src="OCI-05-Core Compute-7.mp4" qt:chapter="Boot Volumes"  region="Videos" />
+        <video src="OCI-05-Core Compute-8.mp4" qt:chapter="Closing a Boot Volume"  region="Videos" />
+        <video src="OCI-05-Core Compute-9.mp4" qt:chapter="Storage Options"  region="Videos" />
+        <video src="OCI-05-Core Compute-10.mp4" qt:chapter="Autoscaling"  region="Videos" />
+        <video src="OCI-05-Core Compute-11.mp4" qt:chapter="Compute Lab Overview"  region="Videos" />
+     </seq>
+  </body>
+</smil>

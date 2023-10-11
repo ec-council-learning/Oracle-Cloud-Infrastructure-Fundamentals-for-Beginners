@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "https://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="https://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="1920" height="1080"  background-color="black" />
+<region id="Videos" left="0" top="0" width="1920" height="1080" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="OCI-LAB-05-Block Storage-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-1.mp4" qt:chapter="First Block Volume "  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-2.mp4" qt:chapter="Attach using PV"  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-3.mp4" qt:chapter="iSCSI"  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-4.mp4" qt:chapter="Backups"  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-5.mp4" qt:chapter="Restore a backup "  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-6.mp4" qt:chapter="Backup Policies"  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-7.mp4" qt:chapter="Clone a volume"  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-8.mp4" qt:chapter="Detach iscsi volume"  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-9.mp4" qt:chapter="Volume Groups"  region="Videos" />
+        <video src="OCI-LAB-05-Block Storage-10.mp4" qt:chapter="Conclusion"  region="Videos" />
+     </seq>
+  </body>
+</smil>

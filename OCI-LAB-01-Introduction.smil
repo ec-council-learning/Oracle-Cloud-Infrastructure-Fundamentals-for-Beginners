@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "https://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="https://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="1920" height="1080"  background-color="black" />
+<region id="Videos" left="0" top="0" width="1920" height="1080" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="OCI-LAB-01-Introduction-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="OCI-LAB-01-Introduction-1.mp4" qt:chapter="Sign up for Oracle Cloud"  region="Videos" />
+        <video src="OCI-LAB-01-Introduction-2.mp4" qt:chapter="OCI Console"  region="Videos" />
+        <video src="OCI-LAB-01-Introduction-3.mp4" qt:chapter="Prep for the Lab"  region="Videos" />
+        <video src="OCI-LAB-01-Introduction-4.mp4" qt:chapter="Create a budget alert"  region="Videos" />
+        <video src="OCI-LAB-01-Introduction-5.mp4" qt:chapter="Cost Analysis Tools"  region="Videos" />
+     </seq>
+  </body>
+</smil>

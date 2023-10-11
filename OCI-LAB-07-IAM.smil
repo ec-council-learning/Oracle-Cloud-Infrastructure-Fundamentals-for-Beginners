@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "https://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="https://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="1920" height="1080"  background-color="black" />
+<region id="Videos" left="0" top="0" width="1920" height="1080" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="OCI-LAB-07-IAM-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="OCI-LAB-07-IAM-1.mp4" qt:chapter="Compartments"  region="Videos" />
+        <video src="OCI-LAB-07-IAM-2.mp4" qt:chapter="Groups"  region="Videos" />
+        <video src="OCI-LAB-07-IAM-3.mp4" qt:chapter="Local Users"  region="Videos" />
+        <video src="OCI-LAB-07-IAM-4.mp4" qt:chapter="Policies"  region="Videos" />
+        <video src="OCI-LAB-07-IAM-5.mp4" qt:chapter="Network Admin"  region="Videos" />
+        <video src="OCI-LAB-07-IAM-6.mp4" qt:chapter="IDCS"  region="Videos" />
+     </seq>
+  </body>
+</smil>

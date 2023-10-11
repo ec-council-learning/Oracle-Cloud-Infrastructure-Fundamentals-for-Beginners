@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "https://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="https://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="1920" height="1080"  background-color="black" />
+<region id="Videos" left="0" top="0" width="1920" height="1080" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="OCI-04-Core Networking-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="OCI-04-Core Networking-1.mp4" qt:chapter="Networking Overview "  region="Videos" />
+        <video src="OCI-04-Core Networking-2.mp4" qt:chapter="CIDR Notation"  region="Videos" />
+        <video src="OCI-04-Core Networking-3.mp4" qt:chapter="Subnets and CIDR Notation "  region="Videos" />
+        <video src="OCI-04-Core Networking-4.mp4" qt:chapter="Public and Private Subnets"  region="Videos" />
+        <video src="OCI-04-Core Networking-5.mp4" qt:chapter="DNS in OCI"  region="Videos" />
+        <video src="OCI-04-Core Networking-6.mp4" qt:chapter="DNS Names"  region="Videos" />
+        <video src="OCI-04-Core Networking-7.mp4" qt:chapter="Securing the VCN"  region="Videos" />
+        <video src="OCI-04-Core Networking-8.mp4" qt:chapter="Security Rules"  region="Videos" />
+        <video src="OCI-04-Core Networking-9.mp4" qt:chapter="Stateful and Stateless Security Rules "  region="Videos" />
+        <video src="OCI-04-Core Networking-10.mp4" qt:chapter="Creating a Security Rule"  region="Videos" />
+        <video src="OCI-04-Core Networking-11.mp4" qt:chapter="Security List versus Security Group "  region="Videos" />
+        <video src="OCI-04-Core Networking-12.mp4" qt:chapter="Routing Network Traffic"  region="Videos" />
+        <video src="OCI-04-Core Networking-13.mp4" qt:chapter="Routing Example"  region="Videos" />
+        <video src="OCI-04-Core Networking-14.mp4" qt:chapter="Enabling Internet Access for VCN"  region="Videos" />
+        <video src="OCI-04-Core Networking-15.mp4" qt:chapter="Internet Gateway"  region="Videos" />
+        <video src="OCI-04-Core Networking-16.mp4" qt:chapter="NAT Gateway"  region="Videos" />
+        <video src="OCI-04-Core Networking-17.mp4" qt:chapter="How NAT Works"  region="Videos" />
+        <video src="OCI-04-Core Networking-18.mp4" qt:chapter="Private Access to OCI Services"  region="Videos" />
+        <video src="OCI-04-Core Networking-19.mp4" qt:chapter="OCI Service Gateway"  region="Videos" />
+        <video src="OCI-04-Core Networking-20.mp4" qt:chapter="Networking Lab "  region="Videos" />
+     </seq>
+  </body>
+</smil>

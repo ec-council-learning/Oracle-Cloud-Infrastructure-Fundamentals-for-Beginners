@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "https://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="https://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="1920" height="1080"  background-color="black" />
+<region id="Videos" left="0" top="0" width="1920" height="1080" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="OCI-LAB-04-Object Storage-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-1.mp4" qt:chapter="Public Buckets and Objects"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-2.mp4" qt:chapter="Upload an object"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-3.mp4" qt:chapter="Private objects"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-4.mp4" qt:chapter="Using the OCI CLI"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-5.mp4" qt:chapter="Create a bucket with CLI"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-6.mp4" qt:chapter="Upload an object "  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-7.mp4" qt:chapter="Download object"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-8.mp4" qt:chapter="Delete object"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-9.mp4" qt:chapter="PAR"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-10.mp4" qt:chapter="Using curl"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-11.mp4" qt:chapter="Download using CURL"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-12.mp4" qt:chapter="Granting access using Policies"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-13.mp4" qt:chapter="Object Lifecycle Management"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-14.mp4" qt:chapter="Replication "  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-15.mp4" qt:chapter="Metrics"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-16.mp4" qt:chapter="Log Files"  region="Videos" />
+        <video src="OCI-LAB-04-Object Storage-17.mp4" qt:chapter="Cleaning Up"  region="Videos" />
+     </seq>
+  </body>
+</smil>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "https://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="https://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="1920" height="1080"  background-color="black" />
+<region id="Videos" left="0" top="0" width="1920" height="1080" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="OCI-LAB-03-Networking-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="OCI-LAB-03-Networking-1.mp4" qt:chapter="Create VCN "  region="Videos" />
+        <video src="OCI-LAB-03-Networking-2.mp4" qt:chapter="Subnets"  region="Videos" />
+        <video src="OCI-LAB-03-Networking-3.mp4" qt:chapter="Security Lists"  region="Videos" />
+        <video src="OCI-LAB-03-Networking-4.mp4" qt:chapter="Route Rules"  region="Videos" />
+        <video src="OCI-LAB-03-Networking-5.mp4" qt:chapter="Internet Gateway"  region="Videos" />
+        <video src="OCI-LAB-03-Networking-6.mp4" qt:chapter="Configure SSH Agent Forwarding"  region="Videos" />
+        <video src="OCI-LAB-03-Networking-7.mp4" qt:chapter="Accessing the Internet using NAT"  region="Videos" />
+        <video src="OCI-LAB-03-Networking-8.mp4" qt:chapter="Using Service Gateway to Access OCI"  region="Videos" />
+        <video src="OCI-LAB-03-Networking-9.mp4" qt:chapter="Conclusion"  region="Videos" />
+     </seq>
+  </body>
+</smil>
